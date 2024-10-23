@@ -108,8 +108,8 @@ function Footer() {
                         </svg>
                       </div>
                       <div className="text">
-                        <a href="tel:+9198102 77733" className="mb-0">
-                          +91 9582678877
+                        <a href="tel:+919582678877" className="mb-0">
+                          9582678877
                         </a>
                       </div>
                     </li>
@@ -132,8 +132,8 @@ function Footer() {
                         </svg>
                       </div>
                       <div className="text">
-                        <a href="mailto:contact@vktlawchambers.com">
-                          info@smlawchambers.com
+                        <a href="mailto:info@advsarthakmittal.com">
+                          info@advsarthakmittal.com
                         </a>
                       </div>
                     </li>
@@ -156,8 +156,8 @@ function Footer() {
                         </svg>
                       </div>
                       <div className="text">
-                        Office Address: 31/26, Basement, East Patel Nagar, New
-                        Delhi – 110008
+                        C-337, IIIrd Floor, Bhutani Cyber Park Plot No.28-29
+                        Industrial Area Sector-62, Noida-201309, Uttar Pradesh
                       </div>
                     </li>
                   </ul>
