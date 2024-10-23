@@ -1,5 +1,6 @@
 import React, { useEffect, useReducer, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 /*---------Using reducer mange the active or inactive menu----------*/
 const initialState = { activeMenu: "" };
 
@@ -59,17 +60,17 @@ function Header2() {
   return (
     <>
       <header className="header-area style-2">
-      <div className="header-logo ">
-  <Link href="/">
-    <a className="border fs-2 text-white ">
-      <img
-        alt="logo"
-        className="h-1 w-auto object-contain bg-transparent"
-        src="/c.jpg"
-      />
-    </a>
-  </Link>
-</div>
+        <div className="header-logo ">
+          <Link href="/">
+            <Image
+              alt="logo"
+              height={100}
+              width={100}
+              className=" object-contain "
+              src="/c.png"
+            />
+          </Link>
+        </div>
 
         <div
           className={showMobileMenu === 1 ? "main-nav show-menu" : "main-nav"}

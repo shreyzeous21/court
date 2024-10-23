@@ -1,17 +1,19 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 function Footer() {
   return (
     <>
       <footer className="footer-section ">
-        <div className="footer-top ">
+        <div className="footer-top">
           <div className="container-xl container-lg-fluid container">
             <div className="row gy-5">
               <div className="col-lg-3 col-md-6">
                 <div className="footer-about text-white">
-                  here comes the logo
-                  <img
-                    src="assets/images/icons/vkt2.png"
+                  <Image
+                    width={300}
+                    height={300}
+                    src="/c.png"
                     className="img-fluid text-white"
                     alt="image"
                   />
@@ -44,7 +46,7 @@ function Footer() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 d-flex justify-content-lg-center">
+              {/* <div className="col-lg-3 col-md-6 d-flex justify-content-lg-center">
                 <div className="footer-item">
                   <h4>Content</h4>
                   <ul className="link-list">
@@ -80,7 +82,7 @@ function Footer() {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
               <div className="col-lg-3 col-md-6 d-flex justify-content-lg-center">
                 <div className="footer-item">
                   <h4>Contacts</h4>
@@ -191,7 +193,7 @@ function Footer() {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 d-flex justify-content-lg-end">
+              <div className="col-lg-6 col-md-6 d-flex justify-content-lg-end">
                 <div className="footer-item text-white">
                   <h4>Legal services</h4>
                   <div className="row">
