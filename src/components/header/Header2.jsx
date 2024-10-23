@@ -347,7 +347,7 @@ function Header2() {
             <div className="number">
               <span>Call Us Now</span>
               <h5>
-                <a href="tel:+917678496387">+91 7678496387</a>
+                <a href="tel:+919582678877">+91 9582678877</a>
               </h5>
             </div>
           </div>

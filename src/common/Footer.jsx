@@ -108,9 +108,8 @@ function Footer() {
                         </svg>
                       </div>
                       <div className="text">
-                        <a href="tel:+9176784 96387">+91 76784 96387</a>
                         <a href="tel:+9198102 77733" className="mb-0">
-                          +91 98102 77733
+                          +91 9582678877
                         </a>
                       </div>
                     </li>
@@ -134,13 +133,7 @@ function Footer() {
                       </div>
                       <div className="text">
                         <a href="mailto:contact@vktlawchambers.com">
-                          contact@vktlawchambers.com
-                        </a>
-                        <a
-                          href="mailto:vktlawchambers@gmail.com"
-                          className="mb-0"
-                        >
-                          vktlawchambers@gmail.com
+                          info@smlawchambers.com
                         </a>
                       </div>
                     </li>
@@ -165,29 +158,6 @@ function Footer() {
                       <div className="text">
                         Office Address: 31/26, Basement, East Patel Nagar, New
                         Delhi – 110008
-                      </div>
-                    </li>
-                    <li>
-                      <div className="icon">
-                        <svg
-                          width={23}
-                          height={23}
-                          viewBox="0 0 23 23"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <g clipPath="url(#clip0_169_19596)">
-                            <path d="M18.3087 3.93864C16.9129 1.52975 14.4335 0.0580615 11.6764 0.00181934C11.5588 -0.000606445 11.4403 -0.000606445 11.3226 0.00181934C8.56552 0.0580615 6.08619 1.52975 4.69029 3.93864C3.26348 6.4009 3.22444 9.35855 4.58585 11.8504L10.2893 22.2897C10.2918 22.2943 10.2944 22.2989 10.297 22.3035C10.548 22.7397 10.9975 23 11.4996 23C12.0016 23 12.4512 22.7396 12.7021 22.3035C12.7047 22.2989 12.7073 22.2943 12.7098 22.2897L18.4132 11.8504C19.7746 9.35855 19.7355 6.4009 18.3087 3.93864ZM11.4995 10.4219C9.71606 10.4219 8.26513 8.97097 8.26513 7.18752C8.26513 5.40408 9.71606 3.95315 11.4995 3.95315C13.2829 3.95315 14.7339 5.40408 14.7339 7.18752C14.7339 8.97097 13.283 10.4219 11.4995 10.4219Z" />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_169_19596">
-                              <rect width={23} height={23} fill="white" />
-                            </clipPath>
-                          </defs>
-                        </svg>
-                      </div>
-                      <div className="text">
-                        404, Lawyers Chambers, Block – 1, Delhi High Court, New
-                        Delhi – 110003
                       </div>
                     </li>
                   </ul>
@@ -235,7 +205,7 @@ function Footer() {
                 <p>
                   Copyright 2023{" "}
                   <Link href="#">
-                    <a className="egns-lab">VKT</a>
+                    <a className="egns-lab">Sarthak Mittal</a>
                   </Link>{" "}
                   | Design By{" "}
                   <a

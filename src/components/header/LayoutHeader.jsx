@@ -61,7 +61,7 @@ function LayoutHeader() {
       <header className="header-area style-3">
         <div className="header-logo">
           <Link href="/">
-            <img alt="image" src="/vkt1.png" />
+            <img alt="image" src="/c.png" />
           </Link>
         </div>
 
