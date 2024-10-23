@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useReducer, useState } from "react";
 /*---------Using reducer mange the active or inactive menu----------*/
@@ -61,7 +62,7 @@ function LayoutHeader() {
       <header className="header-area style-3">
         <div className="header-logo">
           <Link href="/">
-            <img alt="image" src="/c.png" />
+            <Image width={100} height={100} alt="image" src="/c.png" />
           </Link>
         </div>
 

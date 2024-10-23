@@ -81,7 +81,8 @@ function Contact3() {
             </div>
             <div className="text">
               <h4>Location</h4>
-              <p>168/170, Ave 01,Old York Drive Rich Mirpur, Dhaka, Bangladesh</p>
+              <p>C-337, IIIrd Floor, Bhutani Cyber Park Plot No.28-29
+              Industrial Area Sector-62, Noida-201309, Uttar Pradesh</p>
             </div>
           </li>
           <li>
@@ -101,8 +102,7 @@ function Contact3() {
             </div>
             <div className="text">
               <h4>Phone</h4>
-              <a href="tel:+012-3456-789102">012-3456-789102</a> <br />
-              <a href="tel:+012-3456-789102">+012-3456-789102</a>
+              <a href="tel:+919582678877">9582678877</a>
             </div>
           </li>
         </ul>

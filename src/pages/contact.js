@@ -44,8 +44,9 @@ function Contact() {
                         <div className="text">
                           <h4>Location</h4>
                           <p>
-                            168/170, Ave 01,Old York Drive Rich Mirpur, Dhaka,
-                            Bangladesh
+                            C-337, IIIrd Floor, Bhutani Cyber Park Plot No.28-29
+                            Industrial Area Sector-62, Noida-201309, Uttar
+                            Pradesh
                           </p>
                         </div>
                       </li>
