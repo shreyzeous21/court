@@ -47,7 +47,7 @@ function Topbar() {
                 <div className="number">
                   <span>Email Now</span>
                   <h5>
-                    <a href="mailto:info@example.com">
+                    <a href="mailto:info@advsarthakmittal.com">
                     info@advsarthakmittal.com
                     </a>
                   </h5>
