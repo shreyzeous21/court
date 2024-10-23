@@ -66,7 +66,7 @@ function Header2() {
               alt="logo"
               height={100}
               width={100}
-              className=" object-contain "
+              className="img-fluid"
               src="/c.png"
             />
           </Link>
