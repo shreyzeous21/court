@@ -32,7 +32,7 @@ function CaseStudy3() {
               <div className="casestudy-single3">
                 <div className="image">
                   <img src="assets/images/bg/casestudy31.png" alt="image" />
-                  <Link href="/casestudy-details">
+                  <Link href="/practice-details">
                     <a className="case-details-arrow">
                       <img
                         src="assets/images/icons/read-more-arro.svg"
@@ -44,7 +44,7 @@ function CaseStudy3() {
                 <div className="content">
                   <span>Case Study</span>
                   <h4>
-                    <Link href="/casestudy-details">
+                    <Link href="/practice-details">
                       <a>Civil Litigation & Property Matters</a>
                     </Link>
                   </h4>
@@ -59,7 +59,7 @@ function CaseStudy3() {
               <div className="casestudy-single3">
                 <div className="image">
                   <img src="assets/images/bg/casestudy32.png" alt="image" />
-                  <Link href="/casestudy-details">
+                  <Link href="/practice-details">
                     <a className="case-details-arrow">
                       <img
                         src="assets/images/icons/read-more-arro.svg"
@@ -71,7 +71,7 @@ function CaseStudy3() {
                 <div className="content">
                   <span>Case Study</span>
                   <h4>
-                    <Link href="/casestudy-details">
+                    <Link href="/practice-details">
                       <a>Service Law & Administrative Law</a>
                     </Link>
                   </h4>
@@ -86,7 +86,7 @@ function CaseStudy3() {
               <div className="casestudy-single3">
                 <div className="image">
                   <img src="assets/images/bg/casestudy33.png" alt="image" />
-                  <Link href="/casestudy-details">
+                  <Link href="/practice-details">
                     <a className="case-details-arrow">
                       <img
                         src="assets/images/icons/read-more-arro.svg"
@@ -98,7 +98,7 @@ function CaseStudy3() {
                 <div className="content">
                   <span>Case Study</span>
                   <h4>
-                    <Link href="/casestudy-details">
+                    <Link href="/practice-details">
                       <a>Family & Matrimonial Law</a>
                     </Link>
                   </h4>
@@ -113,7 +113,7 @@ function CaseStudy3() {
               <div className="casestudy-single3">
                 <div className="image">
                   <img src="assets/images/bg/casestudy34.png" alt="image" />
-                  <Link href="/casestudy-details">
+                  <Link href="/practice-details">
                     <a className="case-details-arrow">
                       <img
                         src="assets/images/icons/read-more-arro.svg"
@@ -125,7 +125,7 @@ function CaseStudy3() {
                 <div className="content">
                   <span>Case Study</span>
                   <h4>
-                    <Link href="/casestudy-details">
+                    <Link href="/practice-details">
                       <a>Labour & Employment Laws</a>
                     </Link>
                   </h4>
@@ -140,7 +140,7 @@ function CaseStudy3() {
               <div className="casestudy-single3">
                 <div className="image">
                   <img src="assets/images/bg/casestudy35.png" alt="image" />
-                  <Link href="/casestudy-details">
+                  <Link href="/practice-details">
                     <a className="case-details-arrow">
                       <img
                         src="assets/images/icons/read-more-arro.svg"
@@ -152,7 +152,7 @@ function CaseStudy3() {
                 <div className="content">
                   <span>Case Study</span>
                   <h4>
-                    <Link href="/casestudy-details">
+                    <Link href="/practice-details">
                       <a>Criminal Litigation & Trial Advocacy</a>
                     </Link>
                   </h4>
@@ -167,7 +167,7 @@ function CaseStudy3() {
               <div className="casestudy-single3">
                 <div className="image">
                   <img src="assets/images/bg/casestudy36.png" alt="image" />
-                  <Link href="/casestudy-details">
+                  <Link href="/practice-details">
                     <a className="case-details-arrow">
                       <img
                         src="assets/images/icons/read-more-arro.svg"
@@ -179,7 +179,7 @@ function CaseStudy3() {
                 <div className="content">
                   <span>Case Study</span>
                   <h4>
-                    <Link href="/casestudy-details">
+                    <Link href="/practice-details">
                       <a>Alternate Disputes Resolution</a>
                     </Link>
                   </h4>
