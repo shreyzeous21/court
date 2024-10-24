@@ -10,7 +10,6 @@ function Practice() {
       <div className="col-md-7">
         <div className="section-title1 text-center">
           <h2>Practice Area</h2>
-          <p></p>
         </div>
       </div>
     </div>

@@ -17,6 +17,7 @@ import Counter2 from "../counter/Counter2";
 import Attrony2 from "../components/Attrony/Attrony2";
 import CaseStudy3 from "../components/caseStudy/CaseStudy3";
 import About3 from "../components/about/About3";
+import Practice3 from "../components/practice/Practice3";
 
 function Home2() {
   const [loading, setLoading] = useState(false);
@@ -43,7 +44,7 @@ function Home2() {
           <IntroSection2 />
           <About3  />
           {/* <About2 /> */}
-          {/* <Practice2 /> */}
+          {/* <Practice3 /> */}
           <Counter2 />
           <Attrony2 />
           <CaseStudy3 style="casestudy-section2 pt-120" />

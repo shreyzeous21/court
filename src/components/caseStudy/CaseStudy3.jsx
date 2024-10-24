@@ -14,7 +14,7 @@ function CaseStudy3() {
                 </div>
               </div>
               <div className="section-title sibling2">
-                <span>OUR CASE STUDY</span>
+                <span>Our Practice Area</span>
                 <h2 className="text-black">
                   Get what we have done for solving the problems.
                 </h2>
