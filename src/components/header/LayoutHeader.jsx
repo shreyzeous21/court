@@ -283,7 +283,7 @@ function LayoutHeader() {
               >
                 Blog
               </a>
-              <i className="bi bi-chevron-down dropdown-icon" />
+              {/* <i className="bi bi-chevron-down dropdown-icon" /> */}
               {/* <ul
                 className={
                   state.activeMenu === "blog"

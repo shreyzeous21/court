@@ -247,7 +247,7 @@ function Header() {
               </ul>
             </li> */}
             <li
-              li
+            
               className="menu-item-has-children"
               onClick={() => dispatch({ type: "blog" })}
             >
@@ -259,7 +259,7 @@ function Header() {
               >
                 Blog
               </a>
-              <i className="bi bi-chevron-down dropdown-icon" />
+              {/* <i className="bi bi-chevron-down dropdown-icon" /> */}
               {/* <ul
                 className={
                   state.activeMenu === "blog"
