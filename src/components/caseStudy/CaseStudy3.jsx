@@ -42,7 +42,7 @@ function CaseStudy3() {
                   </Link>
                 </div>
                 <div className="content">
-                  <span>Case Study</span>
+                  
                   <h4>
                     <Link href="/practice-details">
                       <a>Civil Litigation & Property Matters</a>
@@ -69,7 +69,7 @@ function CaseStudy3() {
                   </Link>
                 </div>
                 <div className="content">
-                  <span>Case Study</span>
+                  
                   <h4>
                     <Link href="/practice-details">
                       <a>Service Law & Administrative Law</a>
@@ -96,7 +96,7 @@ function CaseStudy3() {
                   </Link>
                 </div>
                 <div className="content">
-                  <span>Case Study</span>
+                  
                   <h4>
                     <Link href="/practice-details">
                       <a>Family & Matrimonial Law</a>
@@ -123,7 +123,7 @@ function CaseStudy3() {
                   </Link>
                 </div>
                 <div className="content">
-                  <span>Case Study</span>
+                  
                   <h4>
                     <Link href="/practice-details">
                       <a>Labour & Employment Laws</a>
@@ -150,7 +150,7 @@ function CaseStudy3() {
                   </Link>
                 </div>
                 <div className="content">
-                  <span>Case Study</span>
+                  
                   <h4>
                     <Link href="/practice-details">
                       <a>Criminal Litigation & Trial Advocacy</a>
@@ -177,7 +177,7 @@ function CaseStudy3() {
                   </Link>
                 </div>
                 <div className="content">
-                  <span>Case Study</span>
+                  
                   <h4>
                     <Link href="/practice-details">
                       <a>Alternate Disputes Resolution</a>
