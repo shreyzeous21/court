@@ -13,14 +13,14 @@ function About2() {
             <div className="col-lg-6">
               <div className="about2-img">
                 <img
-                  src="/vkt.jpg"
+                  src="/ourphilosophy.jpg"
                   alt="image"
-                  className="img-fluid  experience-img"
+                  className="img-fluid experience-img"
                 />
-                <p className="text-black mt-3">
+                {/* <p className="text-black mt-3">
                   Our Principal Counsel, Mr. Sarthak Mittalk at the <br /> Delhi
                   High Court.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="col-lg-6">

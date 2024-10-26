@@ -54,7 +54,7 @@ function About3() {
               <div className="about3-content ">
                 <p className="para text-dark">
                   Chambers of Sarthak Mittal, Advocates & Solicitors spearheaded
-                  by Mr. Sarthak Mitta is a premier full-service litigation firm
+                  by Mr. Sarthak Mittal is a premier full-service litigation firm
                   based at New Delhi. With more than three decades of experience
                   in the legal field, we are the Top Lawyers in Delhi and are
                   well-equipped to provide the best legal solutions to our

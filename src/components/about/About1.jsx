@@ -4,7 +4,6 @@ function About1() {
   return (
     <>
       <div className="about-section pt-120 pb-120" id="about">
-        <img src="/vkg1.png" alt="image" className="section-bg1 img-fluid" />
         <div className="container">
           <div className="row">
             <div

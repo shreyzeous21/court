@@ -19,8 +19,8 @@ function About4() {
         <div className="section-title-area sibling4">
           <div className="marquee">
             <div>
-              <span>About Corelaw</span>
-              <span>About Corelaw</span>
+              <span>About Sarthak</span>
+              <span>About Sarthak</span>
             </div>
           </div>
           <div className="section-title text-xl-start text-center">
