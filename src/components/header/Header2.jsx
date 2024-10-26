@@ -100,7 +100,7 @@ function Header2() {
               >
                 Home
               </Link>
-              {/* <i className="bi bi-chevron-down dropdown-icon" />
+            {/* <i className="bi bi-chevron-down dropdown-icon" />
               <ul
                 className={
                   state.activeMenu === "home"
