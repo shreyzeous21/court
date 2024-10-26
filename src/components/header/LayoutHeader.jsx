@@ -284,7 +284,7 @@ function LayoutHeader() {
                 Blog
               </a>
               <i className="bi bi-chevron-down dropdown-icon" />
-              <ul
+              {/* <ul
                 className={
                   state.activeMenu === "blog"
                     ? "sub-menu d-block"
@@ -322,7 +322,7 @@ function LayoutHeader() {
                 <li>
                   <Link href="/blog-details">Blog details</Link>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li>
               <Link href="/contact">
