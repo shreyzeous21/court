@@ -18,13 +18,10 @@ class MyDocument extends Document {
             name="keywords"
             content="React Nextjs Template Archo onepage themeforest"
           />
-          <meta
-            name="description"
-            content="VKT"
-          />
+          <meta name="description" content="Sarthak Mittal" />
           <meta name="author" content="" />
 
-          <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+          <link rel="shortcut icon" href="/c.png" />
 
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
