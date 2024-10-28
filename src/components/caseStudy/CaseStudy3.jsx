@@ -183,7 +183,7 @@ function CaseStudy3() {
           </div>
           <div className="row mt-60">
             <div className="col-lg-12 text-center">
-              <Link href="/case-study1">
+              <Link href="/practice-area">
                 <a className="eg-btn btn--primary2 sibling2  btn--lg2 d-inline-flex">
                   <i className="bi bi-dash-lg" />
                   View All Practices
