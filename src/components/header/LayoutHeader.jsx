@@ -62,7 +62,13 @@ function LayoutHeader() {
       <header className="header-area style-3">
         <div className="header-logo">
           <Link href="/">
-            <Image width={100} height={100} alt="image" src="/c.png" />
+            <Image
+              alt="logo"
+              height={100}
+              width={250}
+              className="img-fluid"
+              src="/c.png"
+            />
           </Link>
         </div>
 
@@ -147,14 +153,39 @@ function LayoutHeader() {
                     : "sub-menu d-none"
                 }
               >
+                 <li>
+                  <Link href="/practice-area">
+                    <a>Practice Area</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/practice/clpm">
+                    <a>Civil Litigation & Property Matters</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/practice/slal">
+                    <a>Service Law & Administrative Law</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/practice/fml">
+                    <a>Family & Matrimonial Law</a>
+                  </Link>
+                </li>
                 <li>
                   <Link href="/practice-area">
                     <a>Practice Area</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/practice-details">
-                    <a>Practice Area Details</a>
+                  <Link href="/practice/lel">
+                    <a>Labour & Employment Laws</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/practice/clta">
+                    <a>Criminal Litigation & Trial Advocacy</a>
                   </Link>
                 </li>
               </ul>

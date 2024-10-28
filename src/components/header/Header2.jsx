@@ -65,7 +65,7 @@ function Header2() {
             <Image
               alt="logo"
               height={100}
-              width={100}
+              width={250}
               className="img-fluid"
               src="/c.png"
             />
@@ -134,7 +134,7 @@ function Header2() {
               onClick={() => dispatch({ type: "practice" })}
             >
               <Link
-                href="//practice-area"
+                href="/practice-area"
                 className={
                   state.activeMenu === "practice"
                     ? "active drop-down"
@@ -157,8 +157,18 @@ function Header2() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/practice-details">
-                    <a>Practice Area Details</a>
+                  <Link href="/practice/clpm">
+                    <a>Civil Litigation & Property Matters</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/practice/slal">
+                    <a>Service Law & Administrative Law</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/practice/fml">
+                    <a>Family & Matrimonial Law</a>
                   </Link>
                 </li>
                 <li>
@@ -167,18 +177,13 @@ function Header2() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/practice-details">
-                    <a>Practice Area Details</a>
+                  <Link href="/practice/lel">
+                    <a>Labour & Employment Laws</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/practice-area">
-                    <a>Practice Area</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/practice-details">
-                    <a>Practice Area Details</a>
+                  <Link href="/practice/clta">
+                    <a>Criminal Litigation & Trial Advocacy</a>
                   </Link>
                 </li>
               </ul>
