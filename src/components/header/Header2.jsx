@@ -130,11 +130,11 @@ function Header2() {
               </Link>
             </li>
             <li
-              className="menu-item-has-children"
+              className="nav-item dropdown menu-item-has-children"
               onClick={() => dispatch({ type: "practice" })}
             >
               <Link
-                href="#"
+                href="//practice-area"
                 className={
                   state.activeMenu === "practice"
                     ? "active drop-down"
@@ -151,6 +151,26 @@ function Header2() {
                     : "sub-menu d-none"
                 }
               >
+                <li>
+                  <Link href="/practice-area">
+                    <a>Practice Area</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/practice-details">
+                    <a>Practice Area Details</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/practice-area">
+                    <a>Practice Area</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/practice-details">
+                    <a>Practice Area Details</a>
+                  </Link>
+                </li>
                 <li>
                   <Link href="/practice-area">
                     <a>Practice Area</a>

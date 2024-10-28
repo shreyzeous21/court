@@ -9,9 +9,6 @@ function CaseStudy1() {
      <Layout>
         <Breadcrumb title="Case Study 01" pageName="Case Study 01"/>
         <CaseStudyArea1/>
-
-
-
     </Layout>   
     </>
   )

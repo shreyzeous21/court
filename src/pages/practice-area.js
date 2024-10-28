@@ -47,14 +47,14 @@ function PracticeArea() {
                         <path d="M17.4859 11.4297C17.0184 11.6152 16.5805 12.0309 16.3578 12.5059C16.1871 12.8621 16.1797 12.9438 16.1797 14.5617V16.2465L13.2332 16.2688L10.2793 16.291L9.86367 16.484C9.18828 16.8031 8.66133 17.4266 8.44609 18.1465C8.41641 18.2727 8.38672 22.2805 8.38672 27.1418V35.9219L8.55 36.3449C8.66133 36.6566 8.83203 36.9016 9.16602 37.2355C9.55937 37.6215 9.70039 37.7105 10.1383 37.8441L10.6504 38L23.3418 37.9852L36.0332 37.9629L36.5305 37.718C37.102 37.4359 37.4953 37.0352 37.7699 36.4488L37.9629 36.0332V27.127V18.2207L37.7625 17.7977C37.5027 17.2336 37.0352 16.7438 36.523 16.4988L36.1074 16.291L33.1609 16.2688L30.2145 16.2465L30.1922 14.5246L30.1699 12.8027L29.9473 12.402C29.8285 12.1867 29.5984 11.8898 29.4352 11.7563C28.8711 11.2738 28.9602 11.2813 23.1266 11.2813C18.102 11.2887 17.8348 11.2961 17.4859 11.4297ZM28.7375 12.7508L28.9824 12.9883V14.6063V16.2168H28.3516H27.7207L27.6984 14.9699L27.6836 13.7305H23.1562H18.6289V14.9922V16.2539H17.998H17.3672V14.6953C17.3672 13.441 17.3895 13.0848 17.4785 12.9141C17.716 12.4539 17.4934 12.4688 23.2453 12.491L28.5 12.5059L28.7375 12.7508ZM26.4961 15.5859V16.2539L23.1785 16.2391L19.8535 16.2168L19.8313 15.5637L19.809 14.918H23.1562H26.4961V15.5859ZM36.0555 17.5973C36.2484 17.6938 36.4562 17.8793 36.575 18.0574L36.7754 18.3543L36.7977 20.566C36.8199 22.6664 36.8125 22.7926 36.6715 23.0746C36.5082 23.3863 36.241 23.609 35.8031 23.7945C35.6547 23.8613 33.5395 24.2918 31.1051 24.7594C28.6707 25.2195 26.5926 25.6203 26.4812 25.65L26.2734 25.6945V24.5961C26.2734 23.6461 26.2512 23.4605 26.125 23.2008C25.8207 22.5922 25.8652 22.5996 23.2676 22.5773C20.6922 22.5551 20.618 22.5699 20.284 23.0746C20.1207 23.3121 20.1133 23.4012 20.1133 24.507C20.1133 25.598 20.1059 25.6871 19.9871 25.65C19.9129 25.6277 19.1187 25.4793 18.2207 25.3086C12.684 24.2695 10.7098 23.8762 10.4203 23.7352C10.0641 23.5719 9.6707 23.1711 9.61133 22.9113C9.58906 22.8223 9.57422 21.7461 9.58906 20.5141L9.61133 18.2801L9.81914 18.0129C9.93047 17.857 10.1531 17.6715 10.3016 17.5898C10.5687 17.4488 10.8285 17.4488 23.1488 17.4414H35.7289L36.0555 17.5973ZM25.0711 26.1398C25.0488 28.8711 25.0488 28.8637 24.3883 29.4426C23.416 30.2961 21.9242 29.925 21.4121 28.7004C21.323 28.4777 21.3008 28.025 21.3008 26.0879V23.75H23.2008H25.0934L25.0711 26.1398ZM14.9848 25.9023C17.5008 26.3773 19.6754 26.793 19.8313 26.8227L20.0984 26.8746L20.1281 27.8543C20.1504 28.7746 20.1652 28.8637 20.3879 29.3164C21.1598 30.8973 22.9781 31.5355 24.5293 30.7711C25.7094 30.1922 26.2734 29.1531 26.2734 27.5945C26.2734 27.1938 26.3031 26.8672 26.3328 26.8672C26.4219 26.8672 34.4227 25.3383 35.2836 25.1527C35.6844 25.0711 36.1965 24.9227 36.4117 24.8262L36.8125 24.648V30.1551C36.8125 35.3355 36.7977 35.677 36.6715 35.959C36.5082 36.3227 36.1594 36.6344 35.7883 36.7383C35.5953 36.7977 31.7359 36.8125 23.0004 36.7977L10.4945 36.7754L10.1828 36.5676C10.0121 36.4563 9.8043 36.2336 9.72266 36.0703C9.57422 35.7883 9.57422 35.6547 9.57422 30.2145V24.648L9.98984 24.841C10.3016 24.982 11.5633 25.2492 14.9848 25.9023Z" />
                         <path d="M22.7484 27.5352C22.6668 27.6242 22.6074 27.8023 22.6074 27.9434C22.6074 28.2922 22.8152 28.5 23.1566 28.5C23.6836 28.5 23.9508 27.8988 23.5797 27.55C23.3496 27.3348 22.934 27.3348 22.7484 27.5352Z" />
                       </svg>
-                      <Link href="/practice-details">
+                      <Link href="/practice/practice-details">
                         <a className="eg-btn btn--primary btn--outline btn--sm capsule">
                           Completed Case (12)
                         </a>
                       </Link>
                     </div>
                     <h4>
-                      <Link href="/practice-details">
+                      <Link href="/practice/practice-details">
                         <a>Business Law</a>
                       </Link>
                     </h4>
@@ -64,7 +64,10 @@ function PracticeArea() {
                       In consequat tincidunt turpis sit ametoi imperdiet.
                       Praesent Class officelan gola nonatoureanor mauris.
                     </p>
-                    <Link href="/practice-details" className="details-btn">
+                    <Link
+                      href="/practice/practice-details/practice/practice-details"
+                      className="details-btn"
+                    >
                       <a className="details-btn">Learn More</a>
                     </Link>
                   </div>
@@ -98,14 +101,14 @@ function PracticeArea() {
                         <path d="M29.6506 27.884C29.1682 28.0102 29.0049 28.6113 29.3612 28.9527C29.5244 29.1086 29.6209 29.1309 30.1108 29.1309C30.6303 29.1309 30.6748 29.116 30.8455 28.923C31.0682 28.6633 31.0756 28.3441 30.853 28.0918C30.7194 27.9285 30.6155 27.8914 30.2444 27.8691C29.9994 27.8543 29.7323 27.8617 29.6506 27.884Z" />
                         <path d="M32.6866 27.9359C32.1819 28.1585 32.1968 28.8562 32.7014 29.064C33.5253 29.4054 34.4085 28.9156 34.1339 28.2699C33.9706 27.8691 33.2284 27.6984 32.6866 27.9359Z" />
                       </svg>
-                      <Link href="/practice-details">
+                      <Link href="/practice/practice-details">
                         <a className="eg-btn btn--primary btn--outline style-2 btn--sm capsule">
                           Completed Case (12)
                         </a>
                       </Link>
                     </div>
                     <h4>
-                      <Link href="/practice-details">
+                      <Link href="/practice/practice-details">
                         <a>Workplace Accident</a>
                       </Link>
                     </h4>
@@ -115,7 +118,7 @@ function PracticeArea() {
                       In consequat tincidunt turpis sit ametoi imperdiet.
                       Praesent Class officelan gola nonatoureanor mauris.
                     </p>
-                    <Link href="/practice-details">
+                    <Link href="/practice/practice-details">
                       <a className="details-btn">Learn More</a>
                     </Link>
                   </div>
@@ -150,14 +153,14 @@ function PracticeArea() {
                         <path d="M0.185517 20.2989C-0.141046 20.618 0.0148136 21.1524 0.467548 21.2638C0.55661 21.286 1.72927 21.3009 3.0652 21.286L5.507 21.2638L5.64802 21.0856C5.84098 20.8481 5.82614 20.5141 5.60348 20.2989L5.42536 20.1134H2.8945H0.363642L0.185517 20.2989Z" />
                         <path d="M32.7378 20.2395C32.6561 20.3137 32.5596 20.477 32.5374 20.6105C32.5003 20.8109 32.53 20.8852 32.7155 21.0781L32.9382 21.3008H35.2167C37.5323 21.3008 37.6956 21.2859 37.9034 21.0113C38.0518 20.8184 38.0147 20.4918 37.8143 20.2988L37.6362 20.1133H35.2686C33.1163 20.1133 32.8788 20.1281 32.7378 20.2395Z" />
                       </svg>
-                      <Link href="/practice-details">
+                      <Link href="/practice/practice-details">
                         <a className="eg-btn btn--primary btn--outline btn--sm capsule">
                           Completed Case (12)
                         </a>
                       </Link>
                     </div>
                     <h4>
-                      <Link href="/practice-details">
+                      <Link href="/practice/practice-details">
                         <a>Criminal Law</a>
                       </Link>
                     </h4>
@@ -167,7 +170,7 @@ function PracticeArea() {
                       In consequat tincidunt turpis sit ametoi imperdiet.
                       Praesent Class officelan gola nonatoureanor mauris.
                     </p>
-                    <Link href="/practice-details">
+                    <Link href="/practice/practice-details">
                       <a className="details-btn">Learn More</a>
                     </Link>
                   </div>
@@ -195,14 +198,14 @@ function PracticeArea() {
                         <path d="M4.19359 32.5745C3.74085 32.7601 3.59984 33.3761 3.9264 33.7249C4.51273 34.3484 5.46273 33.6953 5.10648 32.916C4.95804 32.5894 4.54241 32.4335 4.19359 32.5745Z" />
                         <path d="M15.4226 6.33084C14.903 6.81327 15.2296 7.61483 15.9421 7.59256C16.2612 7.58514 16.6249 7.23631 16.6249 6.93202C16.6249 6.29374 15.8679 5.91522 15.4226 6.33084Z" />
                       </svg>
-                      <Link href="/practice-details">
+                      <Link href="/practice/practice-details">
                         <a className="eg-btn btn--primary btn--outline style-2 btn--sm capsule">
                           Completed Case (12)
                         </a>
                       </Link>
                     </div>
                     <h4>
-                      <Link href="/practice-details">
+                      <Link href="/practice/practice-details">
                         <a>Real State Law</a>
                       </Link>
                     </h4>
@@ -212,7 +215,7 @@ function PracticeArea() {
                       In consequat tincidunt turpis sit ametoi imperdiet.
                       Praesent Class officelan gola nonatoureanor mauris.
                     </p>
-                    <Link href="/practice-details">
+                    <Link href="/practice/practice-details">
                       <a className="details-btn">Learn More</a>
                     </Link>
                   </div>
@@ -250,14 +253,14 @@ function PracticeArea() {
                         <path d="M16.4766 31.0234V31.6914H17.1074H17.7383V31.0234V30.3555H17.1074H16.4766V31.0234Z" />
                         <path d="M15.2148 33.584V34.2148H15.8457H16.4766V34.8457V35.4766H17.1074H17.7383V34.8457V34.2148H17.1074H16.4766V33.584V32.9531H15.8457H15.2148V33.584Z" />
                       </svg>
-                      <Link href="/practice-details">
+                      <Link href="/practice/practice-details">
                         <a className="eg-btn btn--primary btn--outline btn--sm capsule">
                           Completed Case (12)
                         </a>
                       </Link>
                     </div>
                     <h4>
-                      <Link href="/practice-details">
+                      <Link href="/practice/practice-details">
                         <a>Drug Offense</a>
                       </Link>
                     </h4>
@@ -267,7 +270,7 @@ function PracticeArea() {
                       In consequat tincidunt turpis sit ametoi imperdiet.
                       Praesent Class officelan gola nonatoureanor mauris.
                     </p>
-                    <Link href="/practice-details">
+                    <Link href="/practice/practice-details">
                       <a className="details-btn">Learn More</a>
                     </Link>
                   </div>
@@ -296,14 +299,14 @@ function PracticeArea() {
                           </clipPath>
                         </defs>
                       </svg>
-                      <Link href="/practice-details">
+                      <Link href="/practice/practice-details">
                         <a className="eg-btn btn--primary btn--outline style-2 btn--sm capsule">
                           Completed Case (12)
                         </a>
                       </Link>
                     </div>
                     <h4>
-                      <Link href="/practice-details">
+                      <Link href="/practice/practice-details">
                         <a>Juvenile Crime</a>
                       </Link>
                     </h4>
@@ -313,7 +316,7 @@ function PracticeArea() {
                       In consequat tincidunt turpis sit ametoi imperdiet.
                       Praesent Class officelan gola nonatoureanor mauris.
                     </p>
-                    <Link href="/practice-details">
+                    <Link href="/practice/practice-details">
                       <a className="details-btn">Learn More</a>
                     </Link>
                   </div>

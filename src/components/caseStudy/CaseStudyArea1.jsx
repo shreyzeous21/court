@@ -16,7 +16,7 @@ function CaseStudyArea1() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="section-title2 text-center">
-              <h2>Completed Cases</h2>
+              <h2>Practices & Cases</h2>
             </div>
           </div>
           <div className="row justify-content-center">

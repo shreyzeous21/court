@@ -247,7 +247,7 @@ function Header() {
               </ul>
             </li> */}
             <li
-            
+              li
               className="menu-item-has-children"
               onClick={() => dispatch({ type: "blog" })}
             >

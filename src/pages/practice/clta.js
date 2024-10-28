@@ -1,9 +1,9 @@
 import Link from "next/link";
 import React from "react";
-import Breadcrumb from "../common/Breadcrumb";
-import Layout from "../components/layout/Layout";
-import teamData from "../data/team_data.json";
-function PracticeDetails() {
+import Breadcrumb from "../../common/Breadcrumb";
+import Layout from "../../components/layout/Layout";
+import teamData from "../../data/team_data.json";
+function clta() {
   return (
     <>
       <Layout>
@@ -20,33 +20,19 @@ function PracticeDetails() {
                 data-wow-delay="0.2s"
               >
                 <div className="service-details-text">
-                  <h2>Business Law</h2>
+                  <h2>Criminal Litigation & Trial Advocacy</h2>
                   <p className="para">
-                    Vestibulum eget mauris dui. Proin luctus est lacus, eu
-                    lobortis orci dignissim. Orcilagri. Curabitur id nunc
-                    hendrerit, dapibus magna sit amet, cursus ogycol magna.
-                    Phasellus in vulputate metus. Nullam nisi metus, efficitur
-                    sit amet quam id, tempor deada semper tortor.Vestibulum eget
-                    mauris dui. Proin luctus est lacus, eu lobortis orci
-                    dignissim at. Uto nec vulputate nisl. Mauris vel dolor
-                    augue. Praesent sit amet eros dui. Sed porta gravida mollis.
-                    In odio dolor, maximus a finibus eget, euismod vitae tellus.
-                  </p>
-                  <p className="para mb-0">
-                    Vestibulum eget mauris dui. Mauris vel dolor augue. Praesent
-                    sit amet eros dui. Sed porta gravida mollis. In odio
-                    dolorcoul maximus a finibus eget, euismod vitae tellus.
-                    Vivamus condimentum nulla rhoncus ipsum jougara vehicula,
-                    quis bibendum massa auctor. Suspendisse potenti. Nam
-                    vulputate diam tempus orcilagri rhoncus tincidunt et nec
-                    dolor. Curabitur id nunc hendrerit, dapibus magna sit amet,
-                    cursus ogycol magna. Phasellus in vulputate metus. Nullam
-                    nisi metus, efficitur sit amet quam id, tempor deada semper
-                    tortor.Vestibulum eget mauris dui. Proin luctus est lacus,
-                    eu lobortis orci dignissim at. Uto nec vulputate nisl.
-                    Mauris vel dolor augue. Praesent sit amet eros dui. Sed
-                    porta gravida mollis. In odio dolor, maximus a finibus eget,
-                    euismod vitae tellus.
+                    Mr. Sarthak Mittal is one of the Best Civil Litigation
+                    Lawyers in Delhi has his hands set in the arena of Civil
+                    Litigation since decades and is also known as the ‘Civil
+                    Wizard’ by many members of the Bar. His expertise in this
+                    field makes him has helped him achieve a tremendous success
+                    rate with cases pertaining to property settlements, contract
+                    law, family law, administrative law, etc. Our team of
+                    Advocates and consultants are the Best Civil Litigation
+                    Lawyers in Delhi and provide you with speedy, innovative,
+                    and tailor made legal solutions and services for your
+                    diverse civil concerns.
                   </p>
                 </div>
               </div>
@@ -73,7 +59,7 @@ function PracticeDetails() {
                 data-wow-delay="0.2s"
               >
                 <img
-                  src="assets/images/bg/service-detls1.png"
+                  src="/assets/images/bg/service-detls1.png"
                   alt="image"
                   className="img-fluid"
                 />
@@ -84,7 +70,7 @@ function PracticeDetails() {
                 data-wow-delay="0.2s"
               >
                 <img
-                  src="assets/images/bg/service-detls2.png"
+                  src="/assets/images/bg/service-detls2.png"
                   alt="image"
                   className="img-fluid mb-0"
                 />
@@ -99,19 +85,16 @@ function PracticeDetails() {
                 <h3 className="feature-title">We Provide</h3>
                 <ul className="feature-list">
                   <FeatureList
-                    image="assets/images/icons/feature-icon1.svg"
-                    title="Business Transactions"
-                    details="In consequat tincidunt turpis sit amet imperdiet. PraesentClavi In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis.Curabitur et tempus eri"
+                    image="/assets/images/icons/feature-icon1.svg"
+                    title="Notices"
                   />
                   <FeatureList
-                    image="assets/images/icons/feature-icon2.svg"
-                    title="Small Business Counseling"
-                    details="In consequat tincidunt turpis sit amet imperdiet. PraesentClavi In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis.Curabitur et tempus eri"
+                    image="/assets/images/icons/feature-icon2.svg"
+                    title="WILL, Gift, Sale Deed etc"
                   />
                   <FeatureList
-                    image="assets/images/icons/feature-icon3.svg"
-                    title="Breach Of Contract"
-                    details="In consequat tincidunt turpis sit amet imperdiet. PraesentClavi In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis.Curabitur et tempus eri"
+                    image="/assets/images/icons/feature-icon3.svg"
+                    title="Tenders"
                   />
                 </ul>
               </div>
@@ -121,7 +104,7 @@ function PracticeDetails() {
                 data-wow-delay="0.2s"
               >
                 <img
-                  src="assets/images/bg/service-detls3.png"
+                  src="/assets/images/bg/service-detls3.png"
                   alt="image"
                   className="img-fluid mb-0"
                 />
@@ -187,13 +170,15 @@ function PracticeDetails() {
   );
 }
 
-export default PracticeDetails;
+export default clta;
 
 function ServiceList({ title }) {
   return (
     <>
       <li>
-        <Link href="/practice-area"><a>{title}</a></Link>
+        <Link href="/practice-area">
+          <a>{title}</a>
+        </Link>
         <span>
           <svg
             width={18}
