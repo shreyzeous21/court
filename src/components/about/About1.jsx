@@ -14,16 +14,14 @@ function About1() {
               <div className="section-title1">
                 <h2>Our Philosophy</h2>
                 <p>
-                  Established on the legacy of unparalleled excellence set forth
-                  by Late Shri Roshan Lal Tandon, one of the most distinguished
-                  and celebrated first-principles lawyers of the Delhi High
-                  Court; Chambers of Sarthak Mittalk, Advocates & Solicitors
-                  strives on the same virtuosity and dedication towards
-                  attending to every client matter with the utmost integrity and
-                  highest level of professionalism. Our incomparable focus on
-                  ‘quality’ and rigorous attention to detail stands us apart and
-                  has helped us achieve a gold-standard of faith and trust with
-                  our clients.
+                  one of the most distinguished and celebrated first-principles
+                  lawyers of the Delhi High Court; Chambers of Sarthak Mittalk,
+                  Advocates & Solicitors strives on the same virtuosity and
+                  dedication towards attending to every client matter with the
+                  utmost integrity and highest level of professionalism. Our
+                  incomparable focus on ‘quality’ and rigorous attention to
+                  detail stands us apart and has helped us achieve a
+                  gold-standard of faith and trust with our clients.
                 </p>
               </div>
               {/* <div className="about-content1">
