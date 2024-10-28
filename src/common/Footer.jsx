@@ -11,8 +11,8 @@ function Footer() {
               <div className="col-lg-3 col-md-6">
                 <div className="footer-about text-white">
                   <Image
-                    width={300}
-                    height={300}
+                    width={250}
+                    height={100}
                     src="/c.png"
                     className="img-fluid text-white"
                     alt="image"
