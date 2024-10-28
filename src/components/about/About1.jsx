@@ -14,7 +14,7 @@ function About1() {
               <div className="section-title1">
                 <h2>Our Philosophy</h2>
                 <p>
-                  one of the most distinguished and celebrated first-principles
+                  One of the most distinguished and celebrated first-principles
                   lawyers of the Delhi High Court; Chambers of Sarthak Mittalk,
                   Advocates & Solicitors strives on the same virtuosity and
                   dedication towards attending to every client matter with the
