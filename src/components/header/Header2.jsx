@@ -79,7 +79,7 @@ function Header2() {
             <div className="mobile-logo-wrap ">
               <Link href="/">
                 <a>
-                  <Image alt="image" width={150}  height={150} src="/c.png" />
+                  <Image alt="image" width={150} height={150} src="/c.png" />
                 </a>
               </Link>
             </div>
@@ -100,7 +100,7 @@ function Header2() {
               >
                 Home
               </Link>
-            {/* <i className="bi bi-chevron-down dropdown-icon" />
+              {/* <i className="bi bi-chevron-down dropdown-icon" />
               <ul
                 className={
                   state.activeMenu === "home"
