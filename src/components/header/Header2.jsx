@@ -300,7 +300,7 @@ function Header2() {
               onClick={() => dispatch({ type: "blog" })}
             >
               <a
-                href="#"
+                href="/blog-grid"
                 className={
                   state.activeMenu === "blog" ? "active drop-down" : "drop-down"
                 }
