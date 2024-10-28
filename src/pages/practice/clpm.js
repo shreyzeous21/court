@@ -8,7 +8,7 @@ function clpm() {
     <>
       <Layout>
         <Breadcrumb
-          title="Practice Area Details"
+          title="Civil Litigation & Property Matters"
           pageName="Practice Area Details"
         />
         <div className="service-details pt-120 pb-80">
