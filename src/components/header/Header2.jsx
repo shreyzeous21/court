@@ -152,11 +152,6 @@ function Header2() {
                 }
               >
                 <li>
-                  <Link href="/practice-area">
-                    <a>Practice Area</a>
-                  </Link>
-                </li>
-                <li>
                   <Link href="/practice/clpm">
                     <a>Civil Litigation & Property Matters</a>
                   </Link>
