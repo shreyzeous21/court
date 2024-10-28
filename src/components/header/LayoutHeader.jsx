@@ -1,6 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
 import React, { useEffect, useReducer, useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
 /*---------Using reducer mange the active or inactive menu----------*/
 const initialState = { activeMenu: "" };
 
@@ -14,10 +14,10 @@ function reducer(state, action) {
       return { activeMenu: "practice" };
     case "blog":
       return { activeMenu: "blog" };
-    case "blog_gird":
-      return { activeMenu: "blog_gird" };
-    case "blog_standard":
-      return { activeMenu: "blog_standard" };
+    case "blog-grid":
+      return { activeMenu: "blog-grid" };
+    case "Blog_standard":
+      return { activeMenu: "Blog_Standard" };
     case "pages":
       return { activeMenu: "pages" };
     case "contact":
@@ -59,8 +59,8 @@ function LayoutHeader() {
 
   return (
     <>
-      <header className="header-area style-3">
-        <div className="header-logo">
+      <header className="header-area style-2">
+        <div className="header-logo ">
           <Link href="/">
             <Image
               alt="logo"
@@ -76,14 +76,19 @@ function LayoutHeader() {
           className={showMobileMenu === 1 ? "main-nav show-menu" : "main-nav"}
         >
           <div className="mobile-logo-area d-xl-none d-flex justify-content-between align-items-center">
-            <div className="mobile-logo-wrap "></div>
-            <div className="menu-close-btn" onClick={handleMobileMenu}>
+            <div className="mobile-logo-wrap ">
+              <Link href="/">
+                <a>
+                  <Image alt="image" width={200} height={100} src="/c.png" />
+                </a>
+              </Link>
+            </div>
+            <div onClick={handleMobileMenu} className="menu-close-btn">
               <i className="bi bi-x-lg text-white" />
             </div>
           </div>
           <ul className="menu-list">
             <li
-              li
               className="menu-item-has-children"
               onClick={() => dispatch({ type: "home" })}
             >
@@ -104,24 +109,18 @@ function LayoutHeader() {
                 }
               >
                 <li>
-                  <Link href="/" className="active-menu">
-                    <a>Home 1</a>
+                  <Link href="/">Home 1</Link>
+                </li>
+                <li>
+                  <Link href="#" className="active-menu">
+                    Home 2
                   </Link>
                 </li>
                 <li>
-                  <Link href="/index2">
-                    <a>Home 2</a>
-                  </Link>
+                  <Link href="index3">Home 3</Link>
                 </li>
                 <li>
-                  <Link href="/index3">
-                    <a>Home 3</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/index4">
-                    <a>Home 4</a>
-                  </Link>
+                  <Link href="index4">Home 4</Link>
                 </li>
               </ul> */}
             </li>
@@ -131,12 +130,11 @@ function LayoutHeader() {
               </Link>
             </li>
             <li
-              li
-              className="menu-item-has-children"
+              className="nav-item dropdown menu-item-has-children"
               onClick={() => dispatch({ type: "practice" })}
             >
-              <a
-                href="#"
+              <Link
+                href="/practice-area"
                 className={
                   state.activeMenu === "practice"
                     ? "active drop-down"
@@ -144,7 +142,7 @@ function LayoutHeader() {
                 }
               >
                 Practice Area
-              </a>
+              </Link>
               <i className="bi bi-chevron-down dropdown-icon" />
               <ul
                 className={
@@ -153,7 +151,7 @@ function LayoutHeader() {
                     : "sub-menu d-none"
                 }
               >
-                 <li>
+                <li>
                   <Link href="/practice-area">
                     <a>Practice Area</a>
                   </Link>
@@ -191,7 +189,6 @@ function LayoutHeader() {
               </ul>
             </li>
             {/* <li
-              li
               className="menu-item-has-children"
               onClick={() => dispatch({ type: "case" })}
             >
@@ -206,7 +203,7 @@ function LayoutHeader() {
               <i className="bi bi-chevron-down dropdown-icon" />
               <ul
                 className={
-                  state.activeMenu === "cse"
+                  state.activeMenu === "case"
                     ? "sub-menu d-block"
                     : "sub-menu d-none"
                 }
@@ -221,15 +218,14 @@ function LayoutHeader() {
                     <a>Case Study 2</a>
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/casestudy-details">
                     <a>Case Study Details</a>
                   </Link>
-                </li>
+                </li> 
               </ul>
-            </li>
-            <li
-              li
+            </li> */}
+            {/* <li
               className="menu-item-has-children"
               onClick={() => dispatch({ type: "pages" })}
             >
@@ -272,28 +268,26 @@ function LayoutHeader() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
-                    <a>Submenu</a>
-                  </Link>
+                  <Link href="#">Submenu</Link>
                   <i className="bi bi-chevron-right dropdown-icon" />
                   <ul className="sub-menu">
                     <li>
-                      <Link href="#">
+                      <Link href="/about">
                         <a>Children 1</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="/team">
                         <a>Children 2</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="/faq">
                         <a>Children 3</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="Link">
+                      <Link href="/error">
                         <a>Children 4</a>
                       </Link>
                     </li>
@@ -302,7 +296,6 @@ function LayoutHeader() {
               </ul>
             </li> */}
             <li
-              li
               className="menu-item-has-children"
               onClick={() => dispatch({ type: "blog" })}
             >
@@ -325,11 +318,9 @@ function LayoutHeader() {
                 <li>
                   <Link href="/blog-grid">
                     <a
-                      onClick={() => dispatch({ type: "blog_gird" })}
+                      onClick={() => dispatch({ type: "blog-gird" })}
                       className={
-                        state.activeMenu === "blog_gird"
-                          ? "active"
-                          : "deact dactive"
+                        state.activeMenu === "blog-gird" ? "active" : ""
                       }
                     >
                       Blog Grid
@@ -338,20 +329,13 @@ function LayoutHeader() {
                 </li>
                 <li>
                   <Link href="/blog-standard">
-                    <a
-                      onClick={() => dispatch({ type: "blog_standard" })}
-                      className={
-                        state.activeMenu === "blog_standard"
-                          ? "active"
-                          : "dactive"
-                      }
-                    >
-                      Blog Standard
-                    </a>
+                    <a>Blog Standard</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog-details">Blog details</Link>
+                  <Link href="/blog-details">
+                    <a>Blog details</a>
+                  </Link>
                 </li>
               </ul> */}
             </li>
@@ -367,7 +351,7 @@ function LayoutHeader() {
               <Link href="/contact">
                 <a>
                   <i className="bi bi-dash-lg" />
-                  Free Cosultasion
+                  Request Appointment
                 </a>
               </Link>
             </div>
@@ -388,14 +372,17 @@ function LayoutHeader() {
             <div className="number">
               <span>Call Us Now</span>
               <h5>
-                <a href="tel:+8801701111000">+880 170 1111 000</a>
+                <a href="tel:+919582678877">+91 9582678877</a>
               </h5>
             </div>
           </div>
         </div>
-
         <div className="nav-right d-flex jsutify-content-end align-items-center gap-5">
-          <div className="mobile-menu-btn d-xl-none d-block">
+          <div
+            className="mobile-menu-btn d-xl-none d-block"
+            style={{ cursor: "pointer" }}
+            onClick={handleMobileMenu}
+          >
             <i className="bi bi-list text-white" />
           </div>
           <div className="eg-btn btn--primary2 capsule btn--lg d-xl-flex d-none">

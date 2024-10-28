@@ -79,7 +79,7 @@ function Header2() {
             <div className="mobile-logo-wrap ">
               <Link href="/">
                 <a>
-                  <Image alt="image" width={150} height={150} src="/c.png" />
+                  <Image alt="image" width={200} height={100} src="/c.png" />
                 </a>
               </Link>
             </div>
