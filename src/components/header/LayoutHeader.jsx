@@ -167,8 +167,8 @@ function LayoutHeader() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/practice-area">
-                    <a>Practice Area</a>
+                  <Link href="/practice/adr">
+                    <a>Alternate Disputes Resolution</a>
                   </Link>
                 </li>
                 <li>

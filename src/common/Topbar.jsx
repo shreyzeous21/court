@@ -39,7 +39,7 @@ function Topbar() {
               <div className="phone-call2 d-flex justify-content-start align-items-center flex-row gap-2">
                 <div className="icon">
                   <img
-                    src="assets/images/icons/envelope2.svg"
+                    src="/assets/images/icons/envelope2.svg"
                     alt="image"
                     className="img-fluid mt-1"
                   />

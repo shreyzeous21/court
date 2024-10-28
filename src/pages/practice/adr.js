@@ -15,7 +15,7 @@ function adr() {
           <div className="container">
             <div className="row g-4">
               <div
-                className="col-lg-8 wow fadeInLeft"
+                className=" wow fadeInLeft"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.2s"
               >
@@ -36,7 +36,7 @@ function adr() {
                   </p>
                 </div>
               </div>
-              <div
+              {/* <div
                 className="col-lg-4 wow fadeInRight"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.2s"
@@ -50,7 +50,7 @@ function adr() {
                   <ServiceList title="Education Law" />
                   <ServiceList title="Business Law" />
                 </ul>
-              </div>
+              </div> */}
             </div>
             <div className="row service-img-grp">
               <div
@@ -112,7 +112,7 @@ function adr() {
             </div>
           </div>
         </div>
-        <div className="team-section pb-120">
+        {/* <div className="team-section pb-120">
           <div className="container">
             <h3 className="team-title">This Team</h3>
             <div className="row justify-content-center g-4">
@@ -164,7 +164,7 @@ function adr() {
               })}
             </div>
           </div>
-        </div>
+        </div> */}
       </Layout>
     </>
   );
