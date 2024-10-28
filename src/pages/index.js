@@ -46,7 +46,7 @@ function Home2() {
           {/* <About2 /> */}
           {/* <Practice3 /> */}
           <Counter2 />
-          <Attrony2 />
+          {/* <Attrony2 /> */}
           <CaseStudy3 style="casestudy-section2 pt-120" />
           {/* <CaseStudy2 style="casestudy-section2 pt-120" /> */}
           <PracticeTestimonial />

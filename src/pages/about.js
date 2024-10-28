@@ -17,7 +17,7 @@ function About() {
         <Counter2 />
         <About2 />
         <AboutContactArea />
-        <AttronySection />
+        {/* <AttronySection /> */}
         <AboutBlog />
       </Layout>
     </>

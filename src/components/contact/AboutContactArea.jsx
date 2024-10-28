@@ -1,52 +1,95 @@
 import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
 function AboutContactArea() {
+  const [state, handleSubmit] = useForm("xzzbdjll");
+
   return (
     <>
       <div className="contact-section2  pb-120">
         <div className="container">
           <div className="row g-0 align-items-center g-4">
+            {/* form strat */}
+
             <div className="col-xl-7 col-lg-7">
               <div className="section-title2 sibling2 text-start">
                 <span>Contact With Us</span>
-                <h2>We are always ready to hear For You.</h2>
+                <h2>We are always ready to hear from you.</h2>
               </div>
-              <form className="contact-form contact-form2 mt-60">
+              <form
+                onSubmit={handleSubmit}
+                className="contact-form contact-form2 mt-60"
+              >
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="form-inner glass-effect">
-                      <input type="text" placeholder="Enter your name" />
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                      />
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="form-inner glass-effect">
-                      <input type="email" placeholder="Subject" />
+                      <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="Subject"
+                      />
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="form-inner glass-effect">
-                      <input type="email" placeholder="Enter your email" />
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                      />
+                      <ValidationError
+                        prefix="Email"
+                        field="email"
+                        errors={state.errors}
+                      />
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="form-inner glass-effect">
-                      <input type="text" placeholder="Enter your Phone" />
+                      <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="Enter your Phone"
+                      />
                     </div>
                   </div>
                   <div className="col-lg-12">
                     <div className="form-inner glass-effect">
                       <textarea
+                        id="message"
+                        name="message"
                         rows={5}
                         placeholder="Your message"
-                        defaultValue={""}
+                        required
+                      />
+                      <ValidationError
+                        prefix="Message"
+                        field="message"
+                        errors={state.errors}
                       />
                     </div>
                   </div>
                   <div className="col-lg-12 text-lg-start text-center">
                     <button
                       type="submit"
+                      disabled={state.submitting}
                       className="eg-btn btn--primary2 capsule btn--lg"
                     >
-                      Send Message &nbsp;{" "}
+                      Send Message &nbsp;
                       <svg
                         width={18}
                         height={15}
@@ -63,10 +106,18 @@ function AboutContactArea() {
                         />
                       </svg>
                     </button>
+                    {state.succeeded && (
+                      <p className="mt-3 text-success">
+                        Thanks for reaching out! We'll get back to you soon.
+                      </p>
+                    )}
                   </div>
                 </div>
               </form>
             </div>
+
+            {/* form end */}
+
             <div className="col-xl-4 col-lg-5 offset-xl-1">
               <ul className="address-list sibling2">
                 <li>
@@ -96,8 +147,8 @@ function AboutContactArea() {
                   <div className="text">
                     <h4>Location</h4>
                     <p>
-                    C-337, IIIrd Floor, Bhutani Cyber Park Plot No.28-29
-                    Industrial Area Sector-62, Noida-201309, Uttar Pradesh
+                      C-337, IIIrd Floor, Bhutani Cyber Park Plot No.28-29
+                      Industrial Area Sector-62, Noida-201309, Uttar Pradesh
                     </p>
                   </div>
                 </li>

@@ -20,7 +20,7 @@ function CaseStudyArea1() {
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-xl-6 col-lg-8 col-md-10">
+            {/* <div className="col-xl-6 col-lg-8 col-md-10">
               <div className="button-group filter-button-group d-flex flex-wrap flex-row justify-content-md-between justify-content-center gap-3 mb-60">
                 <button
                   data-filter="*"
@@ -61,7 +61,7 @@ function CaseStudyArea1() {
                   Violence
                 </button>
               </div>
-            </div>
+            </div> */}
             <div className="col-12">
               <div className="grid row d-flex justify-content-center g-4">
                 {caseData.slice(0, 6).map((item) => {

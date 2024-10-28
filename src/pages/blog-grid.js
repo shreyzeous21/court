@@ -23,7 +23,7 @@ function BlogGrid() {
       
         <div className="blog-single1 style-2">
           <div className="image">
-            <span className="blog-badge">Violence</span>
+            
             <Link href="/blog-details"><a><img src="assets/images/blog/bgrid-1.png" className="img-fluid" alt="image" /></a></Link>
           </div>
           <div className="text">
