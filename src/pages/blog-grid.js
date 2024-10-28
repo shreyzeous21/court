@@ -28,7 +28,7 @@ function BlogGrid() {
           </div>
           <div className="text">
             <div className="post-meta">
-              <div className="date">20 May, 2022</div>
+              <div className="date">20 May, 2024</div>
               <Link href="/blog-details" className="comment"><a>Comments (20)</a></Link>
             </div>
             <h4><Link href="/blog-details"><a>In a augue sit amet erat Suspe eleifend suscipit issen.</a></Link></h4>
@@ -41,7 +41,7 @@ function BlogGrid() {
           </div>
           <div className="text">
             <div className="post-meta">
-              <div className="date">20 May, 2022</div>
+              <div className="date">20 May, 2024</div>
               <Link href="/blog-details" className="comment"><a>Comments (20)</a></Link>
             </div>
             <h4><Link href="/blog-details"><a>In a augue sit amet erat Suspe eleifend suscipit issen.</a></Link></h4>
@@ -54,7 +54,7 @@ function BlogGrid() {
           </div>
           <div className="text">
             <div className="post-meta">
-              <div className="date">20 May, 2022</div>
+              <div className="date">20 May, 2024</div>
               <Link href="/blog-details" className="comment"><a>Comments (20)</a></Link>
             </div>
             <h4><Link href="/blog-details"><a>In a augue sit amet erat Suspe eleifend suscipit issen.</a></Link></h4>
@@ -67,7 +67,7 @@ function BlogGrid() {
           </div>
           <div className="text">
             <div className="post-meta">
-              <div className="date">20 May, 2022</div>
+              <div className="date">20 May, 2024</div>
               <Link href="/blog-details" className="comment"><a>Comments (20)</a></Link>
             </div>
             <h4><Link href="/blog-details"><a>In a augue sit amet erat Suspe eleifend suscipit issen.</a></Link></h4>
@@ -82,7 +82,7 @@ function BlogGrid() {
           </div>
           <div className="text">
             <div className="post-meta">
-              <div className="date">20 May, 2022</div>
+              <div className="date">20 May, 2024</div>
               <Link href="/blog-details" className="comment"><a>Comments (20)</a></Link>
             </div>
             <h4><Link href="/blog-details"><a>In a augue sit amet erat Suspe eleifend suscipit issen.</a></Link></h4>
@@ -95,7 +95,7 @@ function BlogGrid() {
           </div>
           <div className="text">
             <div className="post-meta">
-              <div className="date">20 May, 2022</div>
+              <div className="date">20 May, 2024</div>
               <Link href="/blog-details" className="comment"><a>Comments (20)</a></Link>
             </div>
             <h4><Link href="/blog-details"><a>In a augue sit amet erat Suspe eleifend suscipit issen.</a></Link></h4>
@@ -108,7 +108,7 @@ function BlogGrid() {
           </div>
           <div className="text">
             <div className="post-meta">
-              <div className="date">20 May, 2022</div>
+              <div className="date">20 May, 2024</div>
               <Link href="/blog-details" className="comment"><a>Comments (20)</a></Link>
             </div>
             <h4><Link href="/blog-details"><a>In a augue sit amet erat Suspe eleifend suscipit issen.</a></Link></h4>
@@ -125,7 +125,7 @@ function BlogGrid() {
               </div>
               <div className="text">
                 <div className="post-meta">
-                  <div className="date">20 May, 2022</div>
+                  <div className="date">20 May, 2024</div>
                   <Link href="/blog-details" className="comment"><a>Comments (20)</a></Link>
                 </div>
                 <h4><Link href="/blog-details"><a>In a augue sit amet erat Suspe eleifend suscipit issen.</a></Link></h4>
@@ -138,7 +138,7 @@ function BlogGrid() {
               </div>
               <div className="text">
                 <div className="post-meta">
-                  <div className="date">20 May, 2022</div>
+                  <div className="date">20 May, 2024</div>
                   <Link href="/blog-details" className="comment"><a>Comments (20)</a></Link>
                 </div>
                 <h4><Link href="/blog-details"><a>In a augue sit amet erat Suspe eleifend suscipit issen.</a></Link></h4>
@@ -153,7 +153,7 @@ function BlogGrid() {
               </div>
               <div className="text">
                 <div className="post-meta">
-                  <div className="date">20 May, 2022</div>
+                  <div className="date">20 May, 2024</div>
                   <Link href="/blog-details" className="comment"><a>Comments (20)</a></Link>
                 </div>
                 <h4><Link href="/blog-details"><a>In a augue sit amet erat Suspe eleifend suscipit issen.</a></Link></h4>
@@ -166,7 +166,7 @@ function BlogGrid() {
               </div>
               <div className="text">
                 <div className="post-meta">
-                  <div className="date">20 May, 2022</div>
+                  <div className="date">20 May, 2024</div>
                   <Link href="/blog-details" className="comment"><a>Comments (20)</a></Link>
                 </div>
                 <h4><Link href="/blog-details"><a>In a augue sit amet erat Suspe eleifend suscipit issen.</a></Link></h4>
